@@ -347,22 +347,22 @@ body {
 }
 
 .bgURL1{
-  background-image: url('/images/BG.png');
+  background-image: url('images/BG.png');
 }
 .bgURL2{
-  background-image: url('/images/BG2.png');
+  background-image: url('images/BG2.png');
 }
 .bgURL3{
-  background-image: url('/images/BG3.png');
+  background-image: url('images/BG3.png');
 }
 .bgURL4{
-  background-image: url('/images/BG4.png');
+  background-image: url('images/BG4.png');
 }
 .bgURL5{
-  background-image: url('/images/BG5.png');
+  background-image: url('images/BG5.png');
 }
 .bgURL6{
-  background-image: url('/images/BG6.png');
+  background-image: url('images/BG6.png');
 }
 
 .rounded-edges{
