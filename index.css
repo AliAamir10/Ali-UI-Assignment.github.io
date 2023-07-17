@@ -3,6 +3,7 @@ body {
     color : #FFFFFF;
       background: linear-gradient(#28293E 50%, #FDF0E9 50%);
       background: linear-gradient(#28293E 0%, #28293E 22%, #FDF0E9 22%, #FDF0E9 36%, #28293E 36%,#28293E 60%,#FDF0E9 60%,#FDF0E9 83%,#28293E 83%,#28293E 95%, #FDF0E9 95%, #FDF0E9 100%);
+     
       
 }
 
@@ -10,8 +11,8 @@ body {
  margin-left: 100px;
 }
 .navbar {
-    margin-left: 135px;
-    margin-right: 135px;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   .navbar .navbar-nav .nav-link {
     color: white;
@@ -29,13 +30,16 @@ body {
     border: 1px solid;
     border-radius: 10px;
   }
-
+.big-image{
+  width : 70%;
+  height : 100%;
+}
   .S1container{
     
-    margin-left: 135px;
-    margin-right:135px;
+    padding: 2%;
     margin-top: 100px;
     margin-bottom: 50px;
+   
    
   }
   
@@ -451,16 +455,22 @@ body {
 
 .block {
   z-index: 2;
+  width : 90%;
+  height : 90%
 }
  .cloud {
-    left: -20px; /* Not working */
-    margin-left : 50px;
+    
+  width : 90%;
+  height : 50%
+    
   }
 
 .margin-t-125{
   margin-top: 125px;
  
 }
+
+
 
 .margin-t-10{
   margin-top: 10px;
@@ -475,15 +485,26 @@ body {
 .margin-l-reduce{
   margin-left:-85px;
 }
+.pricing-card {
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  margin-bottom: 20px;
+}
 
-@media screen and (max-width: 839px) {
+.middle-card {
+  height: 460px; /* Adjust the height as desired */
+}
+
+@media screen and (max-width: 850px) {
   .row {
     flex-direction: column;
   }
 
-  body{
+  /* body{
     background-color: white !important;
-  }
+  } */
 
   .explore{
     flex-direction: column;
@@ -502,6 +523,7 @@ body {
   .test{
     width: 80%;
     justify-content: center;
+   
   }
   .value-card{
     width: 80%;
@@ -538,8 +560,8 @@ body {
     
   }
   .icons{
-    width : 80%;
-    margin-left : 40%;
+    width : 40%;
+    margin-left : 30%;
     
   }
   .awards{
