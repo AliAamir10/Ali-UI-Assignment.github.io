@@ -1,12 +1,14 @@
 body {
-    background-color: #28293E;
+    /* background-color: #28293E; */
     color : #FFFFFF;
       background: linear-gradient(#28293E 50%, #FDF0E9 50%);
       background: linear-gradient(#28293E 0%, #28293E 22%, #FDF0E9 22%, #FDF0E9 36%, #28293E 36%,#28293E 60%,#FDF0E9 60%,#FDF0E9 83%,#28293E 83%,#28293E 95%, #FDF0E9 95%, #FDF0E9 100%);
       
 }
 
-
+.margin-l-100{
+ margin-left: 100px;
+}
 .navbar {
     margin-left: 135px;
     margin-right: 135px;
@@ -46,7 +48,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 32px; /* 200% */
     letter-spacing: 3px;
     text-transform: uppercase;
   }
@@ -61,9 +63,6 @@ body {
  .margin-l-40{
   margin-left:40px;
  }
-.margin-l-100{
-    margin-left:100px;
-}
   .InfoTitle{
     
 
@@ -116,10 +115,10 @@ body {
 
     /* Text */
     font-family: Epilogue;
-    font-size: 16px;
+    font-size: .83%;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 1.66%;
     width: 440px;
   }
  
@@ -166,7 +165,7 @@ body {
 }
 
 .S1-leftSide{
-    margin-top: 100px;
+    margin-top: 5.2%;
 }
 .PageBreakLine{
   margin-left: 135px;
@@ -278,6 +277,17 @@ body {
 .textLike{
   
 
+  /* Text */
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  
+  margin-left: 40px;
+}
+
+.tlike{
   /* Text */
   font-family: Epilogue;
   font-size: 16px;
@@ -465,4 +475,93 @@ body {
 .margin-l-reduce{
   margin-left:-85px;
 }
+
+@media screen and (max-width: 839px) {
+  .row {
+    flex-direction: column;
+  }
+
+  body{
+    background-color: white !important;
+  }
+
+  .explore{
+    flex-direction: column;
+   
+
+  }
+}
+
+@media screen and (max-width: 970px){
+  .web-design-page{
+    flex-direction : column;
+    width : 100%;
+   
+  }
+
+  .test{
+    width: 80%;
+    justify-content: center;
+  }
+  .value-card{
+    width: 80%;
+    margin-left: 4%;
+  }
+  .test-bg-image{
+    width: 80%;
+    justify-content: center;
+  }
+
+  .S1container{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .suscribe-colapse{
+    margin-top: 1%;
+  }
+
+  
+}
+
+@media screen and (max-width : 1109px){
+  .video-colapse{
+    flex-direction: column;
+  }
+  
+}
+
+@media screen and (max-width : 838px){
+  .comment{
+    width: 80%;
+    justify-content: center;
+    
+  }
+  .icons{
+    width : 80%;
+    margin-left : 40%;
+    
+  }
+  .awards{
+    /* flex-direction:column;.
+    align-items: center; */
+  }
+
+  .award-row{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .tlike{
+    margin: 0;
+  }
+}
+
+
+
+
+
+
+
 
