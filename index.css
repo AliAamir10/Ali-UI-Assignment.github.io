@@ -2,7 +2,7 @@ body {
     /* background-color: #28293E; */
     color : #FFFFFF;
       background: linear-gradient(#28293E 50%, #FDF0E9 50%);
-      background: linear-gradient(#28293E 0%, #28293E 22%, #FDF0E9 22%, #FDF0E9 37%, #28293E 37%,#28293E 60%,#FDF0E9 60%,#FDF0E9 84%,#28293E 84%,#28293E 95%, #FDF0E9 95%, #FDF0E9 100%);
+      background: linear-gradient(#28293E 0%, #28293E 22%, #FDF0E9 22%, #FDF0E9 40%, #28293E 40%,#28293E 61%,#FDF0E9 61%,#FDF0E9 84%,#28293E 84%,#28293E 95%, #FDF0E9 95%, #FDF0E9 100%);
       font-family: 'Epilogue', sans-serif;
       
 }
