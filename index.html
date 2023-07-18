@@ -1,678 +1,1041 @@
-body {
-    /* background-color: #28293E; */
-    color : #FFFFFF;
-      background: linear-gradient(#28293E 50%, #FDF0E9 50%);
-      background: linear-gradient(#28293E 0%, #28293E 22%, #FDF0E9 22%, #FDF0E9 40%, #28293E 40%,#28293E 61%,#FDF0E9 61%,#FDF0E9 84%,#28293E 84%,#28293E 95%, #FDF0E9 95%, #FDF0E9 100%);
-      font-family: 'Epilogue', sans-serif;
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap" rel="stylesheet">
+    <!-- Your custom CSS file (if any) -->
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body>
+    <!-- Content of your web page goes here -->
+
+    <!-- Bootstrap JavaScript (optional, if you need to use Bootstrap's JavaScript components) -->
+    <!-- Image and text -->
+    
+    <nav class="navbar navbar-dark navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/logo.svg"
+            width="106"
+            height="32"
+            class="d-inline-block align-top"
+            alt=""
+          />
+         
+        </a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="color: white;"></span>
+
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0   " >
+            <li class="nav-item margin-l-200 ">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item margin-l-100">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item margin-l-100">
+              <a class="nav-link" href="#">Prices</a>
+            </li>
+            <li class="nav-item margin-l-100">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+           
+          </ul>
+          <form class="d-flex">
+            <button class="navbar-button">Contact</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+   
+    
+    
+      <div class="S1container">
+        <div class="row  make-center">
+          <div class="col-md-6 S1-leftSide">
+            <h5 class="InfoStatus">WebFlow Expert</h5>
+            <h1 class="InfoTitle fontSize-72"> Making Digital Products</h2>
+            <p class=" gray">Agency provides a full service range including technical skills, design, business understanding.</p>
+            <div class="row mt-5 d-flex">
+              
+                <div class=" col-md-6    explore">
+            <button class="btnLike orange   font-white">Explore Work</button>
+                </div>
+                <div class="col-md-6 d-flex justify-content-start ">
+            <p class = "btnLike gray mt-2">Contact Me</p>
+        </div>
+                </div>
+          </div>
+          <div class="col-md-6">
+            <img
+            src="images/Screen1Right.svg"
+           
+            class="d-inline-block align-top big-image"
+            alt=""
+          />
+          </div>
+        </div>
+        <hr>
+      </div>
+    
+
+
+      <div class = "S1container">
+        <div class="row web-design-page d-flex web-design-page ">
+          <div class="col-md-4 S1-leftSide">
+            <h5 class="InfoStatus">WebFlow Expert</h5>
+            <h1 class="InfoTitle fontSize-72"> Custom Web Design</h2>
+            <p class=" gray">Read More</p>
+            
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-3 bg-light h-55  rounded test">
+            <div class="CircularImage">
+              <img src="images/CombinedShape.png" class="img-fluid" alt="">
+            </div>
+            <h4 class="h4Like dark mt-4">Professional</h4>
+                <p class = "textLike margin-t-10 dark">Full service range including technical skill design.</p>
+          </div>
+          <div class="col-md-3 h-51 margin-t-125  rounded text-white border border-secondary rounded test collapse-margin-remove">
+            <h4 class="h4Like white marginT-150">Accessibility</h4>
+            <p class="textLike margin-t-10 gray">Business understanding. Ability to put themselves.</p>
+          </div>
+          
+      </div>
+      </div>
+
+      <div class ="S1container">
+        <div class="row make-center video-colapse ">
+          <div class="col-md 6">
+            <img
+            src="images/pic.svg"
+            
+           
+            class="d-inline-block align-top big-image "
+            alt=""
+          />
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <div class="col-md-12 S1-leftSide test">
+              <h5 class="InfoStatus ">About WebFlow</h5>
+              <h2 class="InfoTitle fontSize-45"> Website Without The Dev Time.</h2>
+              <p class="InfoDescription gray">Agency provides a full service range including technical skills, design, business understanding.</p>
+              <div class="row">
+                  <div class="col-md-4">
+              <button class="btnLike purple font-white">About Webflow</button>
+                  </div>
+                 
+          </div>
+        </div>
+        </div>
+        </div>          
+        </div>
+
+        <div class = "S1container">
+          <div class ="row mb-3">
+            <div class="col-md-4 S1-leftSide test ">
+              <h5 class="InfoStatus">Service</h5>
+              <h2 class="InfoTitle fontSize-45"> How Webflow Experts Can Help </h2>
+            </div>
+
+            <div class="row mb-5 justify-content-center">
+              <div class="col-md-4 bg-light h-60  rounded test ">
+                <div class="CircularImage">
+                  <img src="images/DesignPic.png" class="img-fluid" alt="">
+                </div>
+                <h4 class="h4Like dark mt-4">Design</h4>
+                    <p class = "textLike margin-t-10 dark">Agency provides a Full service range including technical skill design.</p>
+                    <p class = "textLike margin-t-10 dark">Learn More.</p>
+              </div>
+              
+              <div class="col-md-4 bg-light h-60  rounded test">
+                <div class="CircularImage">
+                  <img src="images/DevelopmentPic.png" class="img-fluid" alt="">
+                </div>
+                <h4 class="h4Like dark mt-4">Development</h4>
+                    <p class = "textLike margin-t-10 dark">Agency provides a full service range including technical skills, design, business understanding.</p>
+                    <p class = "textLike margin-t-10 dark">Discover More.</p>
+              </div>
+              <div class="col-md-4 bg-light h-60  rounded test">
+                <div class="CircularImage">
+                  <img src="images/MarketingPic.png" class="img-fluid" alt="">
+                </div>
+                <h4 class="h4Like dark mt-4">Marketing</h4>
+                    <p class = "textLike margin-t-10 dark">Technical Skills, design,business, understanding,ability.</p>
+                    <p class = "textLike margin-t-10 dark">Explore Now.</p>
+              </div>
+            </div>
+          </div>
       
-}
+       
+       </div>
+       
+       <div class = "S1container">
+        <div class="row make-center d-flex">
+          <div class="col-md-7 d-flex">
+           
+              <img
+              src="images/video.PNG"
+              
+              
+              class="d-inline-block align-top border rounded big-image"
+              alt=""
+            />
+           
+          </div>
+          <div class="col-md-5 d-flex">
+            <div class="col-md-7  ">
+              <h5 class="InfoStatus">Video Reel</h5>
+              <h2 class="InfoTitle fontSize-45 dark"> Unlock The Greatest Value Possible</h2>
+              
+              <p class="InfoDescription dark-gray">Design, business understanding, Ability to put themselves in merchant's shoes meant to partner</p>
+              
+        </div>
+        </div>
+        </div>
+    </div>
 
-.margin-l-100{
- margin-left: 100px;
-}
-.margin-l-200{
-  margin-left: 200px;
- }
-.margin-l-navitem{
-  margin-left: 5%
-}
-.navbar {
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-  .navbar .navbar-nav .nav-link {
-    color: white;
-  }
-  .NavItemLike{
-    margin-left: 10%;
-    color: #FFFFFF;
-  }
+    <div class="S1container ">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-4  darkBorder  ">
+              <h3 class=" mt-4 dark">42%</h3>
+              <P class="bigText dark  "> Years of Experience</P>
+            </div>
+            <div class="col-md-4  darkBorder">
+              <h3 class="  mt-3  dark">73+</h3>
+              <P class="bigText dark "> Cups of Coffee</P>
+            </div>
+            <div class="col-md-4 darkBorder">
+              <h3 class="  mt-3  dark">5,000</h3>
+              <P class="bigText dark "> Projects Completed</P>
+            </div>
+          </div>
+          
+        </div>
 
-  .navbar-button {
-    background-color: transparent;
-    color: #FFFFFF;
-    width: 138px;
-    height: 40px;
-    border: 1px solid;
-    border-radius: 10px;
-  }
-.big-image{
-  width : 100%;
-  height : 100%;
-  object-fit: cover;
-}
-  .S1container{
+
+        <div class ="S1container">
+          <div class="row">
+           
+            <div class="col-md-6">
+              <div class="col-md-6">
+                <h5 class="InfoStatus">How I'M Working</h5>
+                <h3 class=" fontSize-35 dark"> Making Your Projects Look Awesome</h3>
+                <p class="InfoDescription dark-gray">Design, business understanding, Ability to put themselves in merchant's shoes meant to partner.</p>
+                <p class = "dark">Explore Now.</p>
+                   
+            </div>
+          </div>
+          <div class="col-md 6">
+            <div class="row">
+            <div class=" d-flex">
+            <h1 class="h1Like mt-2 dark">1</h1>
+            <h4 class="h4Like mt-4  dark">Full Service Range Including</h4>
+            </div>
+            
+            </div>
+            <div class="row">
+              <div class="d-flex">
+              <h1 class="h1Like mt-2 dark">2</h1>
+              <h4 class="h4Like mt-4  dark">Technical Skills, Design, Business.</h4>
+              </div>
+              
+              </div>
+              <div class="row">
+                <div class="d-flex">
+                <h1 class="h1Like mt-2 dark ">3</h1>
+                <h4 class="h4Like mt-4  dark">Themselves In The Merchant's</h4>
+                </div>
+                
+                </div>
+          </div>
+          </div>
+          </div>  
+          <hr class="PageBreakLine skinColor">        
+         
     
-    padding: 4%;
-    margin-top: 100px;
-    margin-bottom: 50px;
+
+          <div class="S1container">
+            <div class="row  centeralize">
+              <h5 class="InfoStatus ">Portfolio</h5>
+            </div>
+
+            <div class="row centeralize">
+              <h2 class="h2Like dark">Latest Work</h2>
+            </div>
+            <div >
+              <ul class="col-md-12 mt-1 d-flex justify-content-center" id="listItems">
+                <li class="bigText dark margin-l">Show All <sup>11</sup></li>
+                <li class="bigText dark margin-l">Show All <sup>11</sup></li>
+                <li class="bigText dark margin-l">Show All <sup>11</sup></li>
+               
+               
+              </ul>
+            </div>
+            
+            
+            
+              <div class ="row mb-3 centeralizeTags ">
+              
+               
+                  <div class="col-md-3 bg-light height mt-3 mb-3 rounded bg-image background-image bgURL1 d-flex flex-column justify-content-end test-bg-image">
+                    <button class="textLike margin-t-10 rounded-edges   dark">AgencyBox</button>
+                    <h3 class=" font-white dark">SOFA</h3>
+                </div>
+                
+
+                <div class="col-md-3 bg-light height mt-3 mb-3 rounded bg-image background-image bgURL2 d-flex flex-column justify-content-end test-bg-image">
+                  <button class="textLike margin-t-10 rounded-edges dark">AgencyBox</button>
+                  <h3 class=" font-white dark">KEYBOARD</h3>
+              </div>
+              <div class="col-md-3 bg-light height mt-3 mb-3 rounded bg-image background-image bgURL3 d-flex flex-column justify-content-end test-bg-image">
+                <button class="textLike margin-t-10 rounded-edges dark">AgencyBox</button>
+                <h3 class=" font-white dark">WORK MEDIA</h3>
+            </div>
+                  
+                 
+            
+              </div>
+
+              <div class ="row mb-3 centeralizeTags">
+              
+    
+               
+                <div class="col-md-3 bg-light height mt-3 mb-3 rounded bg-image background-image bgURL4 d-flex flex-column justify-content-end test-bg-image">
+                  <button class="textLike margin-t-10 dark rounded-edges">AgencyBox</button>
+                  <h3 class=" font-white dark margin-l-40 ">SOFA</h3>
+              </div>
+              
+
+              <div class="col-md-3 bg-light height mt-3 mb-3 rounded bg-image background-image bgURL5 d-flex flex-column justify-content-end test-bg-image">
+                <button class="textLike margin-t-10 rounded-edges dark">AgencyBox</button>
+                <h3 class=" font-white dark">KEYBOARD</h3>
+            </div>
+            <div class="col-md-3 bg-light height mt-3 mb-3 rounded bg-image background-image bgURL6 d-flex flex-column justify-content-end test-bg-image">
+              <button class="textLike margin-t-10 rounded-edges dark">AgencyBox</button>
+              <h3 class=" font-white dark">WORK MEDIA</h3>
+          </div>
+                
+               
+          
+            </div>
+               
+            </div>
+            
+            
+          
+
+          <div class="d-flex justify-content-center text-center mb-3 p-1">
+            <button class="btnLike no-bg font-white  ">Explore Work</button>
+          </div>
+
+
+        
+
+          <div class = "S1container">
+
+            
+  
+              <div class="row mb-5 justify-content-center">
+                <div class="col-md-4 bg-light h-60 test p-1">
+                  <div class="CircularImage-out">
+                    <img src="images/gift.png" class="img-fluid gift" alt="">
+                    <img src="images/Star.png" class="img-fluid star" alt="">
+                   </div>
+                    
+                    <h4 class="h4Like dark">Design</h4>
+                        <p class = "textLike margin-t-10 dark">Agency provides a Full service range including technical skill design.</p>
+                        <p class = "textLike margin-t-10 dark">Learn More.</p>
+                        
+                        <button class="btnLike orange font-white margin-l-40">Explore Work</button>
+                 
+                  
+               
+                </div>
+                
+                <div class="col-md-4 bg-light h-60 test">
+                 
+                <p class = "textLike   margin-t-125 dark">Agency provides a full service range including technical skills, design, business understanding.Puts themselves in merchants shoes.</p>
+                     
+                </div>
+                <div class="col-md-4 bg-light h-60  test">
+                  
+                  
+                   
+                    <img
+                    src="images/cloudCard.png"
+                   
+                    class="d-inline-block align-top big-image"
+                    alt=""
+                  />
+                 
+                </div>
+             
+            </div>
+        
+         
+         </div>
+
+
+
+         <div class ="S1container">
+          <div class="row make-center video-colapse ">
+            <div class="col-md 6">
+              <img
+              src="images/pic.svg"
+              
+             
+              class="d-inline-block align-top big-image "
+              alt=""
+            />
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+              <div class="col-md-12 S1-leftSide test">
+                <h5 class="InfoStatus ">About WebFlow</h5>
+                <h2 class="InfoTitle fontSize-45"> Website Without The Dev Time.</h2>
+                <p class="InfoDescription gray">Agency provides a full service range including technical skills, design, business understanding.</p>
+                <div class="row">
+                    <div class="col-md-4">
+                <button class="btnLike purple font-white">About Webflow</button>
+                    </div>
+                   
+            </div>
+          </div>
+          </div>
+          </div>          
+          </div>
+
+          <div class="S1container">
+                  
+          </div>
+
+          
+
+          <div class = "S1container">
+            <div class="row  centeralize">
+              <h5 class="InfoStatus ">Portfolio</h5>
+            </div>
+
+            <div class="row centeralize ">
+              <h1 class="  fontSize-72"> What My Clients Saying</h2>
+            </div>      
+            <div class ="row d-flex justify-content-start  colapse-comment ">
+           
+                <div class="col-md-6 bg-light   darkBorder p-4 comment" >
+                  <div class="mt-3 ">
+                    <img src="images/rating.png" class="img-fluid" alt="">
+                  </div>
+                      <p class = "textLike margin-t-10 dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, laboriosam nulla! Nobis dignissimos nulla totam, error repudiandae voluptatem, blanditiis ipsam possimus adipisci molestias illum. Ad provident repellendus itaque beatae! Excepturi!.</p>
+
+                  <div class="row">
+                    <div class="col-md-3 margin-l-40">
+                      <img src="images/ProfilePhoto.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-6">
+                      <h4 class="h4Like dark fontSize-35"> Lucas yung</h4>
+                      <p class = "textLike dark"> Meta Inc.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-6 bg-light   darkBorder  p-4 comment" >
+                  <div class="mt-3 margin-l-40">
+                    <img src="images/rating.png" class="img-fluid" alt="">
+                  </div>
+                      <p class = "textLike margin-t-10 dark">Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore reiciendis illo assumenda quod praesentium. Eveniet, magnam quas accusamus a adipisci harum culpa ipsum? Quidem, totam dolorum dicta similique pariatur quis?</p>
+
+                  <div class="row">
+                    <div class="col-md-3 margin-l-40">
+                      <img src="images/ProfilePhoto.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-6">
+                      <h4 class="h4Like dark fontSize-35"> Lucas yung</h4>
+                      <p class = "textLike dark"> Meta Inc.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class ="row d-flex justify-content-start  colapse-comment ">
+           
+              <div class="col-md-6 bg-light   darkBorder p-4 comment" >
+                <div class="mt-3 ">
+                  <img src="images/rating.png" class="img-fluid" alt="">
+                </div>
+                    <p class = "textLike margin-t-10 dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, laboriosam nulla! Nobis dignissimos nulla totam, error repudiandae voluptatem, blanditiis ipsam possimus adipisci molestias illum. Ad provident repellendus itaque beatae! Excepturi!.</p>
+
+                <div class="row">
+                  <div class="col-md-3 margin-l-40">
+                    <img src="images/ProfilePhoto.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4 class="h4Like dark fontSize-35"> Lucas yung</h4>
+                    <p class = "textLike dark"> Meta Inc.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-6 bg-light   darkBorder  p-4 comment" >
+                <div class="mt-3 margin-l-40">
+                  <img src="images/rating.png" class="img-fluid" alt="">
+                </div>
+                    <p class = "textLike margin-t-10 dark">Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore reiciendis illo assumenda quod praesentium. Eveniet, magnam quas accusamus a adipisci harum culpa ipsum? Quidem, totam dolorum dicta similique pariatur quis?</p>
+
+                <div class="row">
+                  <div class="col-md-3 margin-l-40">
+                    <img src="images/ProfilePhoto.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4 class="h4Like dark fontSize-35"> Lucas yung</h4>
+                    <p class = "textLike dark"> Meta Inc.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+           
+          
+          <div class="centeralize"> 
+             <button class="btnLike bg-light dark ps-4 pe-4 mt-5 "> SEE ALL</button>
+          </div>
+          
+         
+         </div>
+
+
+      
+      <div class="container">
+        <div class="row d-flex  ">
+        <div class="col-md-6 ">
+          <h5 class="InfoStatus">WebFlow Expert</h5>
+          <h1 class=" dark fontSize-72"> Explore Pricing Plan</h2>
+          </div>
+        </div>
+        <div class="row  d-flex justify-content-center align-items-end web-design-page">
+          <div class="col-md-4 no-column-padding  testPrice">
+            <div class="card pricing-card bg-transparent mt-2 border border-secondary rounded">
+              <div class="card-body">
+                <h5 class="InfoStatus ">Consultation</h5>
+               <h3 class=" dark fontSize-45"> Free</h3>
+               <p class="grayText"> Your digital marketing efforts instead of handling in house</p>
+                <div class = "row justify-content-center">
+                  <div class="col-md-1 mt-1">
+                    <img src="images/plus.png" class="d-inline-block align-top" alt="">
+                  </div>
+                  <div class="col">
+                    <p class="dark">Brand Design</p>
+                  </div>
+                </div>
+                <div class = "row justify-content-center">
+                  <div class="col-md-1 mt-1">
+                    <img src="images/minus.png" class="d-inline-block align-top" alt="">
+                  </div>
+                  <div class="col">
+                    <p class=" dark-gray">Market Analysis</p>
+                  </div>
+                </div>
+                <div class = "row justify-content-center">
+                  <div class="col-md-1">
+                    <img src="images/minus.png" class="d-inline-block align-top" alt="">
+                  </div>
+                  <div class="col">
+                    <p class="dark-gray">Production</p>
+                  </div>
+                </div>
+                
+                <button class="btnLike bg-light dark margin-l px-4">Contact Us</button>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-4 no-column-padding testPrice">
+            <div class="card pricing-card  border border-secondary rounded">
+              <div class="card-body">
+                <button class="btnLike orang rounded-edge  font-white">Popular</button>
+                <h5 class="InfoStatus ">Consultation</h5>
+               <h3 class=" dark fontSize-45"> $1500</h3>
+               <p class="grayText"> Your digital marketing efforts instead of handling in house</p>
+                <div class = "row d-flex justify-content-center">
+                  <div class="col-md-1 mt-1">
+                    <img src="images/plus.png" class="d-inline-block align-top" alt="">
+                  </div>
+                  <div class="col">
+                    <p class="dark-gray">Brand Design</p>
+                  </div>
+                </div>
+                <div class = "row justify-content-center">
+                  <div class="col-md-1">
+                    <img src="images/plus.png" class="d-inline-block align-top" alt="">
+                  </div>
+                  <div class="col">
+                    <p class="dark">Market Analysis</p>
+                  </div>
+                </div>
+                <div class = "row justify-content-center">
+                  <div class="col-md-1">
+                    <img src="images/minus.png" class="d-inline-block align-top" alt="">
+                  </div>
+                  <div class="col">
+                    <p class="dark">Production</p>
+                  </div>
+                </div>
+                
+                <button class="btnLike orange margin-l-40 ">Contact Us</button>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-4 no-column-padding testPrice">
+            <div class="card pricing-card bg-transparent  border border-secondary rounded" >
+              <div class="card-body">
+                <h5 class="InfoStatus ">Consultation</h5>
+               <h3 class=" dark fontSize-45"> $2900</h3>
+               <p class="grayText"> Your digital marketing efforts instead of handling in house</p>
+                <div class = "row justify-content-center">
+                  <div class="col-md-1">
+                    <img src="images/plus.png" class="d-inline-block align-top" alt="">
+                  </div>
+                  <div class="col">
+                    <p class="dark">Brand Design</p>
+                  </div>
+                </div>
+                <div class = "row justify-content-center">
+                  <div class="col-md-1">
+                    <img src="images/plus.png" class="d-inline-block align-top" alt="">
+                  </div>
+                  <div class="col">
+                    <p class="dark">Market Analysis</p>
+                  </div>
+                </div>
+                <div class = "row justify-content-center">
+                  <div class="col-md-1">
+                    <img src="images/plus.png" class="d-inline-block align-top" alt="">
+                  </div>
+                  <div class="col">
+                    <p class="dark">Production</p>
+                  </div>
+                </div>
+                
+                <button class="btnLike bg-light dark margin-l px-4">Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+     
+
+
+      <div class = "S1container">
+        <div class="row  d-flex justify-content-center align-items-center">
+          <div class="col-md-6  value-card ">
+            <div class="row ">
+              <h5 class="InfoStatus">Video Reel</h5>
+              <h2 class=" dark"> Unlock The Greatest Value</h2>
+              <p class="InfoDescription dark-gray">Design, business understanding, Ability to put themselves in merchant's shoes meant to partner</p>
+            </div>
+           
+          </div>
+          <div class="col-md-6 value-card">
+            <div class="row">
+              <div class="row bg-light border border-secondary rounded darkBorder">
+                <div class="col-md-11">
+                  <h4 class="h4Like dark pt-2">A digital agency is a business</h4>
+                  <p class="textLike dark-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dicta consectetur provident excepturi facere nemo, veniam ut aut, repudiandae, quod velit optio sint nihil rem iusto consequatur esse! Eos, impedit?</p>
+                </div>
+                <div class="col-md-1">
+                  <img
+                  src="images/up.png"
+                  
+                  class="d-inline-block pt-2"
+                  alt=""
+                />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="row bg-transparent border border-secondary rounded darkBorder">
+                <div class="col-md-11">
+                  <h4 class="h4Like dark p-4">A digital agency is a business</h4>
+                
+                </div>
+                <div class="col-md-1">
+                  <img
+                  src="images/down.png"
+                  
+                  class="d-inline-block pt-4"
+                  alt=""
+                />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="row bg-transparent border border-secondary rounded darkBorder">
+                <div class="col-md-11">
+                  <h4 class="h4Like dark p-4">A digital agency is a business</h4>
+                
+                </div>
+                <div class="col-md-1">
+                  <img
+                  src="images/down.png"
+                  
+                  class="d-inline-block pt-4"
+                  alt=""
+                />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="S1container">
+        <div class="row-jambo">
+         <a href=""><img src="images/digitalSide.png" alt=""></a>
+         <a href=""><img src="images/digitalSide.png" alt=""></a>
+         <a href=""><img src="images/digitalSide.png" alt=""></a>
+         <a href=""><img src="images/digitalSide.png" alt=""></a>
+         <a href=""><img src="images/digitalSide.png" alt=""></a>
+       
+          
+        </div>
+        <hr class="PageBreakLine dark-gray">  
+      
+
+
+       
+
+       
+          <div class="row centeralize">
+            <h3 class=" dark "> Awards</h3>
+          </div>
+
+          <hr class="dark-gray">  
+          <div class="row award-row">
+            <div class="col-md-3 ">
+              <div class="d-flex award-row">
+                <img src="images/BG2.png" width="106" height="100px" class="" alt="">
+                <p class="tlike dark ml-2">SOFA</p>
+              </div>
+            </div>
+            <div class="col-md-6 text-center">
+              <p class="tlike dark-gray mt-4">25 Oct, 2021</p>
+            </div>
+            <div class="col-md-3 text-right">
+              <div class="d-flex align-items-center justify-content-end award-row">
+                <p class="tlike dark mt-4">Awards</p>
+                <img src="images/Bitmap (5).png" width="50" height="50px" alt="">
+              </div>
+            </div>
+          </div>
+          <hr class="dark-gray">  
+
+          <div class="row d-flex award-row">
+            <div class="col-md-3">
+              <div class="d-flex award-row ">
+                <img src="images/BG3.png" width="106" height="100px" class="d-inline-block align-top rounded" alt="">
+                <p class="tlike dark ml-2">KEYBOARD</p>
+              </div>
+            </div>
+            <div class="col-md-6 text-center">
+              <p class="tlike dark-gray mt-4">19 Oct, 2021</p>
+            </div>
+            <div class="col-md-3 text-right">
+              <div class="d-flex align-items-center justify-content-end award-row">
+                <p class="textLike dark mt-4 ">Awards</p>
+                <img src="images/Bitmap (6).png" width="50" height="50px" alt="">
+              </div>
+            </div>
+          </div>
+          <hr class="dark-gray">  
+
+         
+          <div class="row award-row">
+            <div class="col-md-3">
+              <div class="d-flex award-row">
+                <img src="images/BG4.png" width="106" height="100px" class="d-inline-block align-top rounded" alt="">
+                <p class="tlike dark ml-2">WORK MEDIA</p>
+              </div>
+            </div>
+            <div class="col-md-6 text-center">
+              <p class="tlike dark-gray mt-4">7 Oct, 2021</p>
+            </div>
+            <div class="col-md-3 text-right">
+              <div class="d-flex align-items-center justify-content-end award-row">
+                <p class="tlike dark mt-4">Awards</p>
+                <img src="images/Bitmap (7).png" width="50" height="50px" alt="">
+              </div>
+            </div>
+          </div>
+
+          <hr class="dark-gray">
+
+          <div class="row centeralize">
+            <div class="col-md-3">
+            <p class="texLike dark "> Want more awards?</p>
+          </div>
+          <div class="col-2 margin-l-reduce ">
+           <h6 class="dark"> Explore Now</h6>
+          </div>
+            
+          </div>
+          
+          
+       
+
+        <!-- <div class="S1container">
+          <div class="row">
+          <div class="col-md-6">
+            <h5 class="InfoStatus">Contact</h5>
+              <h2 class=" dark ">Latest Blog Articles</h2>
+          </div>
+          <div class="col-md-6 d-flex justify-content-end ">
+            <button class="btnLike bg-light mt-5"> Discover All </button>
+          </div>
+          </div>
+        </div> -->
+
+        <div class="row d-flex justify-content-end award-row">
+          <div class="col-md-6 ">
+            <h2 class=" dark mt-5">Latest Blog Articles</h2>
+          </div>
+         <div class="col-md-6 d-flex justify-content-end  btn-colapse">   <button class="btnLike bg-light mt-4"> Discover All </button></div>
+        
+        </div>
+
+
+        <div class="S1container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card bg-transparent" style="width: 90%;">
+                <img class="card-img-top" src="images/fruits.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title gray">Stories</h5>
+                  <p class="card-text">Agency is a business you hire to outsource</p>
+                  <h6 class="gray">4,nov,2016</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card bg-transparent" style="width: 90%;">
+                <img class="card-img-top" src="images/fruits.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title gray">Stories</h5>
+                  <p class="card-text">Agency is a business you hire to outsource</p>
+                  <h6 class="gray">4,nov,2016</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card bg-transparent" style="width: 90%;">
+                <img class="card-img-top" src="images/fruits.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title gray">Stories</h5>
+                  <p class="card-text">Agency is a business you hire to outsource</p>
+                  <h6 class="gray">4,nov,2016</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="mb-5">
+        <div class=s1container>
+          <div class="row d-flex award-row">
+            <div class="col-md-6">
+              <h2 > Newsletter</h2>
+            </div>
+            <div class="col-md-5  d-flex  justify-content-end btn-colapse">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </div>
+            <div class="col-md-1 d-flex justify-content-end ">
+              <button class="btnLike bg-transparent border rounded font-white px-2 "> Surcribe</button>
+            </div>
+
+          </div>
+        </div>
+
+        <hr class="mt-5">
+
+
+        <div class="S1container">
+          <div class="row ">
+            <div class="col-lg-6 col-md-12 test">
+              <div class="card p-2">
+                <div class="card-body">
+                  <div class="form-group">
+                    <label for="recipient">To:</label>
+                    <input type="email" class="form-control" id="recipient" placeholder="Recipient Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Email Subject">
+                  </div>
+                  <div class="form-group mb-3">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="6" placeholder="Compose your message"></textarea>
+                  </div>
+                  <div class="text-md-right">
+                    <button class="btnLike orange font-white">Send Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            
+            <div class="col-md-6 test">
+              <h5 class="InfoStatus">Contact</h5>
+              <h2 class=" ">Unlock Contact Me</h2>
+              <p class="InfoDescription gray">A digital agency is a business you hire to outsource your digital marketing efforts,instead of handling in house efforts</p>
+              <div class = "row">
+                <div class="col-md-1 ">
+                  <div class="CircularImageSmall">
+                  <img src="images/address.png"  alt="">
+                </div>
+                </div>
+                <div class="col-md-5">
+                  <p class="textLike">2247 Lunetta Street</p>
+                </div>
+              </div>
+              <div class = "row">
+                <div class="col-md-1 ">
+                  <div class="CircularImageSmall">
+                  <img src="images/call.png"  alt="">
+                </div>
+                </div>
+                <div class="col-md-5">
+                  <p class="textLike">+1 (234) 567-89-00</p>
+                </div>
+              </div>
+              <div class = "row">
+                <div class="col-md-1 ">
+                  <div class="CircularImageSmall">
+                  <img src="images/mail.png"  alt="">
+                </div>
+                </div>
+                <div class="col-md-5">
+                  <p class="textLike">info@agency.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="s1container mb-5 bg-org  ">
+          <div class="margin-l-40">
+          <div class="row">
+            <div class="col-md-6">
+              <h5 class="InfoStatus">About WebFlow</h5>
+              <h2 class="InfoTitle fontSize-72 mt-5 mb-5"> Help To Build Your Dream Project.</h2>
+              <p class="InfoDescription gray mb-5">Agency provides a full service range including technical skills, design, business understanding.</p>
+              <div class="row">
+                  <div class="col-md-4">
+              <button class="btnLike  dark">Contact Now</button>
+                  </div>
+                 
+          </div>
+        </div>
+            <div class="col-md-6">
+              <img
+              src="images/pic.png"
+              
+              class="d-inline-block align-top bg-transparent big-image"
+              alt=""
+            />
+            </div>
+            
+          </div>
+          </div>
+        </div>
+    
+
+
+        <div class="s1container">
+          <div class="row ">
+            <div class="col-md-4 d-flex d-flex justify-content-center ">
+              <h2 class="dark"> Webflow</h2>
+            </div>
+
+            <div class="col-md-2 d-flex flex-column align-items-center">
+                <h5 class="InfoStatus mb-3">Menu</h5>
+                <p class="dark-gray"> About</p>
+                <p class="dark-gray"> Services</p>
+                <p class="dark-gray"> Blog</p>
+                <p class="dark-gray"> Contact</p>
+            </div>
+
+            <div class="col-md-2 d-flex flex-column align-items-center">
+              <h5 class="InfoStatus mb-3">Service</h5>
+              <p class="dark-gray"> Design</p>
+              <p class="dark-gray"> Development</p>
+              <p class="dark-gray"> Marketing</p>
+              <p class="dark-gray"> See More</p>
+          </div>
+
+          <div class="col-md-4">
+            <div class="d-flex justify-content-center ">
+              <img src="images/social.png"  alt="">
+            </div>
+          </div>
+          </div>
+        </div>
+        
+        <hr class="dark-gray">
+
+        <div class=s1container>
+          <div class="row">
+            <div class="col-md-6 d-flex align-center-media">
+              <p class="dark-gray"> Copyright 2022 Leaqiq All Rights Reserved</p>
+            </div>
+            <div class="col-md-6  d-flex  terms-align  justify-content-end">
+              <p class="dark mx-4 "> Terms of use</p>
+              <p class="dark"> Privacy Policy</p>
+            </div>
+            
+
+          </div>
+        </div>
+        
+
+  
+    
+
+
+
+
+        
+
+          
+        
    
-   
-  }
-  
- 
-  .InfoStatus{
-    color: var(--text-light-accent, #EF6D58);
-
-    /* H5 */
-    font-family: Epilogue;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; /* 200% */
-    letter-spacing: 3px;
-    text-transform: uppercase;
-  }
- .margin-l{
-  margin-left: 60px;
- }
-
- .height-50{
-  height: 50px;
- }
-
- .margin-l-40{
-  margin-left:40px;
- }
-  .InfoTitle{
-    
-
-    /* H1 */
-    font-family: Epilogue;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 80px;
-    letter-spacing: -2px;
-  }
-  .fontSize-72{
-    font-size: 72px;
-  }
-  .fontSize-45{
-    font-size: 45px;
-  }
-  .fontSize-35{
-    font-size: 35px;
-  }
-
-  .h2Like{
-  text-align: center;
-
-  /* H2 */
-  font-family: Epilogue;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 64px; /* 114.286% */
-  letter-spacing: -1px;
-  }
-  .h3Like{
-    
-
-    /* H3 */
-    width:450px;
-    font-family: Epilogue;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 48px; /* 120% */
-    
-  }
-  .S2{
-    width :350px;
-  }
-
-  .InfoDescription{
-   
-
-    /* Text */
-    font-family: Epilogue;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    
-    
-  }
- 
-  .dark-gray{
-    color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
-  }
-
-  .btnLike{
-    
-    height: 42px;
-    flex-shrink: 0;
-    border-radius: 6px;
-    text-align: center;
-    font-family: Epilogue;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    text-transform: uppercase;
-    border-color: transparent;
-}
-.no-bg{
-  border-style: solid;
-  background-color: transparent;
-  border-color: #FFFFFF;
-  border-width: 1px;
-}
-.orange{
-  width: 154px;
-  background: #EF6D58;
-}
-
-.bg-org{
-  background:#EF6D58
-}
-
-.orang{
-
-  background: #EF6D58;
-}
-.purple{
-  width: 160px;
-  background:#B550F8;
-}
-
-.S1-leftSide{
-    margin-top: 5.2%;
-}
-.PageBreakLine{
-  margin-left: 135px;
-  margin-right: 135px;
-  height: 5px;
-  
-  
-}
-
-.skinColor{
-  color: #F3D1BF;
-}
-
-
-
-
-
-.CircularImage {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background-color: #EF6C57;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 40px;
-  margin-left: 40px;
-}
-
-.CircularImageSmall {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #EF6C57;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-
-}
-
-.CircularImage img {
-  max-width: 100%;
-  max-height: 100%;
-  
-}
-
-
-.CircularImage-out {
-  position: relative;
-  width: 300px;
-  height: 150px;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: -75px;
-  margin-left: 10px;
-  overflow: hidden;
-}
-
-.CircularImage-out img.star {
-  position: relative;
-  
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-}
-
-.CircularImage-out img.gift {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index:2;
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-}
-
-
-.h4Like{
-
-
-  /* H4 */
-  font-family: Epilogue;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 32px; /* 133.333% */
- 
-  margin-left: 40px;
-}
-
-
-.dark{
-  color: var(--text-dark, #391400);
-}
-.white{
-  color: white
-}
-.gray{
-  color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
-}
-.marginT-150{
-   margin-top: 125px;
-}
-
-.grayText{
-  color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
-
-/* Text */
-font-family: Epilogue;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 200% */
-}
-.textLike{
-  
-
-  /* Text */
-  font-family: Epilogue;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 200% */
-  
-  margin-left: 40px;
-}
-
-.tlike{
-  /* Text */
-  font-family: Epilogue;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 200% */
-  
-  margin-left: 40px;
-}
-
-.changeBGColor{
-  background: linear-gradient(to right, black 50%, white 50%);
-}
-
-
-.BigTEXT{
- 
-
-  /* Text_Big */
-  font-family: Epilogue;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 160% */
-}
-
-.darkBorder{
-  border: 1px solid #F3D1BF;
-}
-
-
-
-
-.h1Like{
-  color: #391400;
-
-  /* H1 */
-  font-family: Epilogue;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 80px; /* 111.111% */
-  letter-spacing: -2px;
-}
-
-.notification {
-  background-color: none;
-  color: #fff;
-  font-size: 12px;
-  padding: 2px 6px;
-  border-radius: 50%;
-}
-
-.centeralize{
-  justify-content: center !important;
-  text-align: center !important;
-}
-
-.centeralizeTags{
-  justify-content: center !important;
-}
-
-
-.background-image {
-  /* width: 400px;
-  height: 300px; */
-  
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.bgURL1{
-  background-image: url('images/BG.png');
-}
-.bgURL2{
-  background-image: url('images/BG2.png');
-}
-.bgURL3{
-  background-image: url('images/BG3.png');
-}
-.bgURL4{
-  background-image: url('images/BG4.png');
-}
-.bgURL5{
-  background-image: url('images/BG5.png');
-}
-.bgURL6{
-  background-image: url('images/BG6.png');
-}
-
-.rounded-edges{
-  border-radius: 19px;
-  background: #FFF;
- 
-  height: 36px;
-  
-  border:none;
-}
-
-.rounded-edge{
-  border-radius: 19px;
-  background: #EF6D58;
-  
- 
-  height: 36px;
-  
-  border:none;
-}
-
-.font-white{
-  color : white;
-}
-
-.height{
-  height: 350px;
-  margin-right: 25px;
-}
-
-.btn-text{
-  font-family: Epilogue;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 200% */
-  margin-top: 10px;
-  
-}
-
-.custom-button {
-  background-size: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 5px;
-}
-
-
- /* background: linear-gradient(#28293E 50%, #FDF0E9 50%); */
-.bg-dark{
- background-color: #28293E;
-}
-
-.bg-light{
-  background-color: #FDF0E9;
-}
-
-
-
-
-
-.img-container {
-  position: relative;
-  width: 300px;
-  height: 300px; 
-}
-
-.img-container img {
-  position: absolute;
-  top: 50px;
-  left: -0px;
-}
-
-.block {
-  z-index: 2;
-  width : 90%;
-  height : 90%
-}
- .cloud {
-    
-  width : 100%;
-  height : 100%;
-  
-    
-  }
-
-.margin-t-125{
-  margin-top: 125px;
- 
-}
-.row-jambo{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 1%;
-}
-
-
-.margin-t-10{
-  margin-top: 10px;
-}
-
-
-.no-column-padding {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.margin-l-reduce{
-  margin-left:-85px;
-}
-.pricing-card {
-  border: 1px solid #333;
-  border-radius: 10px;
-  padding: 20px;
-  background-color: #f8f8f8;
- 
-}
-
-
-.middle-card {
-  height: 460px; /* Adjust the height as desired */
-}
-
-@media screen and (max-width: 850px) {
-  
-
-  /* body{
-    background-color: white !important;
-  } */
-
-  .explore{
-    flex-direction: column;
-   
-
-  }
-}
-@media screen and (max-width: 870px){
-  .comment{
-    width: 80%;
-    justify-content: center;
-    
-  }
-  .colapse-comment{
-    flex-direction: column;
-    align-items:center;
-    width:100%;
-  }
-}
-@media screen and (max-width: 992px){
-  .web-design-page{
-    flex-direction : column;
-    width : 100%;
-    align-items: center !important;
-    margin-left :0;
-  }
-  .testPrice{
-    width: 80%
-  }
-}
-
-@media screen and (max-width:784px){
-  .align-center-media{
-    flex-direction: column !important;
-    align-items: center;
-  }
-  .terms-align{
-    
-    justify-content: center !important;
-  }
-}
-@media screen and (max-width: 970px){
-  
-
-  .test{
-    width: 80%;
-    justify-content: center;
-   
-  }
-  .value-card{
-    width: 80%;
-    margin-left: 4%;
-  }
-  .test-bg-image{
-    width: 80%;
-    justify-content: center;
-  }
-
-  .S1container{
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-
-  .suscribe-colapse{
-    margin-top: 1%;
-  }
-
-  .collapse-margin-remove{
-    margin-top:0;
-  }
-
-  
-}
-
-@media screen and (max-width : 1109px){
-  .video-colapse{
-    flex-direction: column;
-    
-  }
-  
-}
-
-@media screen and(max-width: 796px){
-  .footer{
-  flex-direction: column;
-  align-items:center;
-  }
-}
-
-@media screen and (max-width : 838px){
-  
-  .icons{
-   display : none;
-  }
-
-  .icr2{
-    display :none;
-  }
-
-  .social-icons{
-    justify-content: start !important;
-   
-  }
-  .awards{
-    /* flex-direction:column;.
-    align-items: center; */
-  }
-
-  .award-row{
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .btn-colapse{
-    justify-content: center !important;
-  }
-
-  .tlike{
-    margin: 0;
-  }
- 
-}
-
-@media screen and (max-width : 850px) and (min-width : 768px){
-  .make-center{
-    width : 100%;
-    height: 100%;
-    margin-right: 0;
-    align-items: center;
-  }
- 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
