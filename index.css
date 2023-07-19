@@ -7,6 +7,22 @@ body {
       
 }
 
+.width-70{
+  width: 70%;
+}
+
+.width-85{
+  width:85%;
+}
+
+.width-60{
+  width :60%;
+}
+
+
+
+
+
 .margin-l-100{
  margin-left: 100px;
 }
@@ -81,8 +97,14 @@ body {
     font-family: Epilogue;
     font-style: normal;
     font-weight: 800;
-    line-height: 80px;
+    line-height: 70px;
     letter-spacing: -2px;
+  }
+  .lineh-60{
+    line-height: 60px !important;
+  }
+  .lineh-40{
+    line-height: 40px !important;
   }
   .fontSize-72{
     font-size: 72px;
@@ -92,6 +114,12 @@ body {
   }
   .fontSize-35{
     font-size: 35px;
+  }
+  .fontSize-55{
+    font-size: 55px;
+  }
+  .fontSize-30{
+    font-size: 24px;
   }
 
   .h2Like{
@@ -218,6 +246,10 @@ body {
 
 }
 
+.width-5{
+  width: 10%;
+}
+
 .CircularImage img {
   max-width: 100%;
   max-height: 100%;
@@ -306,6 +338,17 @@ line-height: 32px; /* 200% */
   line-height: 32px; /* 200% */
   
   margin-left: 40px;
+}
+
+.darkText{
+  color: var(--text-dark, #391400);
+
+/* Text */
+font-family: Epilogue;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
 }
 
 .tlike{
@@ -512,9 +555,15 @@ line-height: 32px; /* 200% */
 .pricing-card {
   border: 1px solid #333;
   border-radius: 10px;
-  padding: 20px;
+  padding: 5px;
   background-color: #f8f8f8;
+  padding-top: 15%;
+  padding-bottom: 15%;
  
+}
+
+ul {
+  list-style-type: none;
 }
 
 
@@ -537,7 +586,7 @@ line-height: 32px; /* 200% */
 }
 @media screen and (max-width: 870px){
   .comment{
-    width: 80%;
+    width: 90%;
     justify-content: center;
     
   }
@@ -662,6 +711,62 @@ line-height: 32px; /* 200% */
  
 }
 
+@media screen and (max-width: 771px){
+  .makeColumn{
+   
+    justify-content: center !important;
+  }
+  .makeColumn1{
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  
+}
+
+@media screen and (max-width : 1073px){
+  .make-card-Column{
+    flex-direction: column-reverse !important;
+    justify-content: center !important;
+    align-items: center;
+  }
+  .increase-width{
+    width:90% !important; 
+  }
+  .d-fontSize{
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .reduce-margin{
+    margin-bottom: 5% !important;
+  }
+}
+
+@media screen and (max-width : 790px){
+  .text-size-reduce{
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .reduce-margin-t{
+    margin-top: 1% !important;
+  }
+  .reduce-margin-b{
+    margin-bottom: 3% !important;
+  }
+  .reduce-margin-l{
+    margin-left: 0% !important;
+  }
+  
+}
+
+@media screen and (max-width : 440px){
+  .width-5{
+    width : 15%;
+  }
+
+  .reduce-font-size{
+    font-size : 20px;
+  }
+}
 
 
 
