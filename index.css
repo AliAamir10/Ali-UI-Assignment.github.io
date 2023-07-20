@@ -66,6 +66,7 @@ body {
    
   }
   
+
  
   .InfoStatus{
     color: var(--text-light-accent, #EF6D58);
@@ -607,6 +608,18 @@ ul {
   text-align: center;
 }
 
+
+@media screen and (min-width: 771px) and (max-width: 972px) {
+  .t-mt-remove {
+    margin-left: 0% !important;
+  }
+}
+
+@media screen and (max-width:975px){
+  .reduce-mt{
+    margin-top: 0% !important;
+  }
+}
 @media screen and (max-width: 850px) {
   
 
@@ -652,6 +665,12 @@ ul {
   .terms-align{
     
     justify-content: center !important;
+  }
+}
+
+@media screen and (max-width:766px){
+  .reverse-column{
+    flex-direction: column-reverse !important;
   }
 }
 @media screen and (max-width: 970px){
