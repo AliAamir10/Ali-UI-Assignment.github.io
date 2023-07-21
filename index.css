@@ -933,6 +933,9 @@ ul {
   .small-col-width{
     width : 100%;
   }
+  .t-mt-removeA {
+    margin-top:0%;
+  }
 }
 
 @media (max-width: 787px) {
