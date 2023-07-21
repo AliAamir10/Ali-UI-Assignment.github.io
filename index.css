@@ -877,6 +877,13 @@ ul {
     margin-left: 0 !important;
   }
 }
+
+@media screen and (max-width : 980px){
+  body{
+    background: linear-gradient(#28293E 0%, #28293E 19%, #FDF0E9 19%, #FDF0E9 40%, #28293E 40%,#28293E 59%,#FDF0E9 59%,#FDF0E9 83%,#28293E 83%,#28293E 95%, #FDF0E9 95%, #FDF0E9 100%) !important;
+  }
+}
+
 @media screen and (max-width : 1259px){
   body{
     background: linear-gradient(#28293E 0%, #28293E 19%, #FDF0E9 19%, #FDF0E9 40%, #28293E 40%,#28293E 61%,#FDF0E9 61%,#FDF0E9 82%,#28293E 82%,#28293E 95%, #FDF0E9 95%, #FDF0E9 100%);
@@ -935,6 +942,9 @@ ul {
   }
   .t-mt-removeA {
     margin-top:0%;
+  }
+  .gml{
+    margin-left:40px;
   }
 }
 
